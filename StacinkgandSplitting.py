@@ -16,3 +16,16 @@ print()
 print("Vertical Stacked Array :")
 myStack = numpy.vstack((myimg,myimg)) # if you want you can add more arrays
 print(myStack)
+
+
+# Splitting means deviding an array into small parts
+# There are also hSplit and vsplit
+print()
+print("Horizontal Splitting Stack")
+myList = numpy.hsplit(myimg,5)
+print(myList)
+
+print()
+print("Vertical Splitting Stack")
+myList = numpy.hsplit(myimg,3)
+print(myList)
