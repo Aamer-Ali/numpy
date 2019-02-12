@@ -4,3 +4,7 @@ print(arr)
 
 # Creating two diamentional array
 print(arr.reshape(3,9))
+
+# Creating three diamentional array
+print(arr.reshape(3,3,3))
+
